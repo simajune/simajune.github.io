@@ -47,7 +47,7 @@
     </div>
 {% endfor %}
 
-<!-- Portfolio Modals -->
+<!-- Blog Modals -->
 {% for blog in site.blog %}
    <div class="blog-modal modal fade" id="blogModal-{{ blog.modal-id }}" tabindex="-1" role="dialog" aria-hidden="true">
        <div class="modal-content">
@@ -68,7 +68,7 @@
                                <p>{{ blog.description }}</p>
                            {% endif %}
                            <ul class="list-inline item-details">
-                               {% if post.client %}
+                               {% if blog.client %}
                                    <li>Client:
                                        <strong><a href="http://startbootstrap.com">{{ blog.client }}</a>
                                        </strong>
