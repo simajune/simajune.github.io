@@ -1,23 +1,23 @@
 
     <!-- Blog Section -->
-    <section id="blog">
+    <section id="content`">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2>blog</h2>
+                    <h2>Content</h2>
                     <hr class="star-primary">
                 </div>
             </div>
             <div class="row">
               {% for blog in site.blogs %}
-                  <div class="col-sm-4 blog-item">
-                      <a href="#blogModal-{{ blog.modal-id }}" class="blog-link" data-toggle="modal">
+                  <div class="col-sm-4 content-item">
+                      <a href="#contentModal-{{ blog.modal-id }}" class="content-link" data-toggle="modal">
                           <div class="caption">
                               <div class="caption-content">
                                   <i class="fa fa-search-plus fa-3x"></i>
                               </div>
                           </div>
-                          <img src="img/blog/{{ blog.img }}" class="img-responsive" alt="{{ blog.alt }}">
+                          <img src="img/content/{{ blog.img }}" class="img-responsive" alt="{{ blog.alt }}">
                       </a>
                   </div>
               {% endfor %}

@@ -49,7 +49,7 @@
 
 <!-- Blog Modals -->
 {% for blog in site.blogs %}
-   <div class="blog-modal modal fade" id="blogModal-{{ blog.modal-id }}" tabindex="-1" role="dialog" aria-hidden="true">
+   <div class="content-modal modal fade" id="contentModal-{{ blog.modal-id }}" tabindex="-1" role="dialog" aria-hidden="true">
        <div class="modal-content">
            <div class="close-modal" data-dismiss="modal">
                <div class="lr">
@@ -63,7 +63,7 @@
                        <div class="modal-body">
                            <h2>{{ blog.title }}</h2>
                            <hr class="star-primary">
-                           <img src="img/blog/{{ blog.img }}" class="img-responsive img-centered" alt="{{ blog.alt }}">
+                           <img src="img/content/{{ blog.img }}" class="img-responsive img-centered" alt="{{ blog.alt }}">
                            {% if blog.description %}
                                <p>{{ blog.description }}</p>
                            {% endif %}
