@@ -1,5 +1,5 @@
 
-    <!-- Portfolio Grid Section -->
+    <!-- Blog Section -->
     <section id="blog">
         <div class="container">
             <div class="row">
@@ -9,18 +9,18 @@
                 </div>
             </div>
             <div class="row">
-                {% for blog in site.blog %}
-                    <div class="col-sm-4 blog-item">
-                        <a href="#blogModal-{{ blog.modal-id }}" class="blog-link" data-toggle="modal">
-                            <div class="caption">
-                                <div class="caption-content">
-                                    <i class="fa fa-search-plus fa-3x"></i>
-                                </div>
-                            </div>
-                            <img src="img/blog/{{ blog.img }}" class="img-responsive" alt="{{ blog.alt }}">
-                        </a>
-                    </div>
-                {% endfor %}
+              {% for post in site.posts %}
+                  <div class="col-sm-4 portfolio-item">
+                      <a href="#portfolioModal-{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
+                          <div class="caption">
+                              <div class="caption-content">
+                                  <i class="fa fa-search-plus fa-3x"></i>
+                              </div>
+                          </div>
+                          <img src="img/portfolio/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
+                      </a>
+                  </div>
+              {% endfor %}
             </div>
         </div>
     </section>
