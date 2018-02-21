@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: main
 ---
 <h2>Posts marked with: {{ page.tag }}</h2>
 <hr>
@@ -15,17 +15,17 @@ layout: page
 {% for post in site.tags[page.tag] %}
 <div class="post-preview">
     <a href="{{ post.url }}">
-        <h3 class="post-subtitle">            
+        <h3 class="post-subtitle">
             {{ post.title }}
         </h3>
     </a>
     <p class="post-meta">
-      Posted by 
+      Posted by
       {% if post.author %}
         {{ post.author }}
       {% else %}
         {{ site.title }}
-      {% endif %} 
+      {% endif %}
       on {{ post.date | date: "%A, %B %-d, %Y" }}
     </p>
 </div>
