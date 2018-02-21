@@ -48,8 +48,8 @@
 {% endfor %}
 
 <!-- Blog Modals -->
-{% for blog in site.blogs %}
-   <div class="content-modal modal fade" id="contentModal-{{ blog.modal-id }}" tabindex="-1" role="dialog" aria-hidden="true">
+{% for portfolio in site.portfolio %}
+   <div class="content-modal modal fade" id="portfolioModal-{{ portfolio.modal-id }}" tabindex="-1" role="dialog" aria-hidden="true">
        <div class="modal-content">
            <div class="close-modal" data-dismiss="modal">
                <div class="lr">
@@ -61,28 +61,28 @@
                <div class="row">
                    <div class="col-lg-8 col-lg-offset-2">
                        <div class="modal-body">
-                           <h2>{{ blog.title }}</h2>
+                           <h2>{{ portfolio.title }}</h2>
                            <hr class="star-primary">
-                           <img src="img/content/{{ blog.img }}" class="img-responsive img-centered" alt="{{ blog.alt }}">
-                           {% if blog.description %}
-                               <p>{{ blog.description }}</p>
+                           <img src="img/portfolio/{{ portfolio.img }}" class="img-responsive img-centered" alt="{{ portfolio.alt }}">
+                           {% if portfolio.description %}
+                               <p>{{ portfolio.description }}</p>
                            {% endif %}
                            <ul class="list-inline item-details">
-                               {% if blog.client %}
+                               {% if portfolio.client %}
                                    <li>Client:
-                                       <strong><a href="http://startbootstrap.com">{{ blog.client }}</a>
+                                       <strong><a href="http://startbootstrap.com">{{ portfolio.client }}</a>
                                        </strong>
                                    </li>
                                {% endif %}
-                               {% if blog.project-date %}
+                               {% if portfolio.project-date %}
                                    <li>Date:
-                                       <strong><a href="http://startbootstrap.com">{{ blog.project-date }}</a>
+                                       <strong><a href="http://startbootstrap.com">{{ portfolio.project-date }}</a>
                                        </strong>
                                    </li>
                                {% endif %}
-                               {% if blog.category %}
+                               {% if portfolio.category %}
                                    <li>Service:
-                                       <strong><a href="http://startbootstrap.com">{{ blog.category }}</a>
+                                       <strong><a href="http://startbootstrap.com">{{ portfolio.category }}</a>
                                        </strong>
                                    </li>
                                {% endif %}
