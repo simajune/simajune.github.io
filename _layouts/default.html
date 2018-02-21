@@ -1,22 +1,29 @@
 <!DOCTYPE html>
-<html>
-    {% include head.html %}
-    <body id="page-top" class="index">
-    {% include nav.html %}
-    {% include header.html %}
-    {% include portfolio_grid.html %}
-    {% include about.html %}
+<html lang="en">
+<!--
+   __ ___   __  __               __
+  / // (_) / /_/ /  ___ _______ / /
+ / _  / / / __/ _ \/ -_) __/ -_)_/
+/_//_/_/  \__/_//_/\__/_/  \__(_)
 
-    {% if site.contact == "static" %}
-    {% include contact_static.html %}
-    {% elsif site.contact == "disqus" %}
-    {% include contact_disqus.html %}
-    {% else %}
-    {% include contact.html %}
-    {% endif %}
+  _      ____        __                                              __     ___
+ | | /| / / /  ___ _/ /_  ___ ________   __ _____  __ __  __ _____  / /____/__ \
+ | |/ |/ / _ \/ _ `/ __/ / _ `/ __/ -_) / // / _ \/ // / / // / _ \/ __/ _ \/__/
+ |__/|__/_//_/\_,_/\__/  \_,_/_/  \__/  \_, /\___/\_,_/  \_,_/ .__/\__/\___(_)
+                                       /___/                /_/
+-->
+{% include head.html %}
+
+<body>
+
+    {% include nav.html %}
+
+    {{ content }}
 
     {% include footer.html %}
-    {% include modals.html %}
-    {% include js.html %}
-    </body>
+
+</body>
+    {% if site.google_analytics %}
+        {% include google_analytics.html %}
+    {% endif %}
 </html>
