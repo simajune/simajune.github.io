@@ -27,6 +27,10 @@ disqus_shortname: myshortname
 collections:
   - portfolio
 
+# jekyll-paginate. for paginating blog posts.
+paginate: 14
+paginate_path: blog/page:num
+
 # Color settings (hex-codes without the leading hash-tag)
 color:
   primary: 18bc9c #80B3FF
@@ -62,6 +66,11 @@ address:
 # Credits content
 credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
 
+permalink: pretty
+
 # Build settings
 markdown: kramdown
-permalink: pretty
+highlighter: rouge
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+port: 8888
+permalink: /blog/:title
