@@ -218,6 +218,11 @@ section.success {
     transition: all ease .5s;
 }
 
+#portfolio .portfolio-item .portfolio-link .caption:before{
+  content:' ';
+  display:inline-block;vertical-align:middle;height:100%;
+}
+
 #portfolio .portfolio-item .portfolio-link .caption:hover {
     opacity: 1;
 }
@@ -443,6 +448,10 @@ footer .footer-below {
     -webkit-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
+}
+
+.portfolio-modal .modal-backdrop{
+  display:none;opacity:0;
 }
 
 .navbar-nav>.active>a {

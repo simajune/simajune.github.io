@@ -1,3 +1,14 @@
 source "https://rubygems.org"
 
-gem "jekyll"
+
+
+group :jekyll_plugins do
+  gem "jekyll"
+  gem "jekyll-paginate"
+  gem "jekyll-feed"
+  gem "html-proofer"
+  gem "rake"
+  gem "jekyll-gist"
+  gem "github-pages"
+
+end
