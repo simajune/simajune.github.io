@@ -76,3 +76,12 @@ port: 4000
 
 disqus_url: disqus.com/by/devtejay
 disqus_id: devtejay
+
+# Assets
+sass:
+  sass_dir:     _sass
+  style:        :compressed
+
+# Gems
+gems:
+  - jekyll-paginate
