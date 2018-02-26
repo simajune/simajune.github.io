@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "스위프트에 대해"
+title: "컴퓨터 공학 기초 상식"
 author: "Tejay"
 tags: "Swift"
 ---
