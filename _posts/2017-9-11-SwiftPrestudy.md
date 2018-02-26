@@ -2,6 +2,7 @@
 layout: post
 title: "스위프트에 대해"
 author: "Tejay"
+tags: "Swift"
 ---
 
 <img src="https://simajune.github.io/img/posting/swift.png" width="100px" height="100px"/>
