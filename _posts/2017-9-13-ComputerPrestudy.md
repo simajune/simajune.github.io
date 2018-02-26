@@ -15,7 +15,7 @@ tags: "Swift"
 
 - 프로그래머의 종류는 매우 다양하며 앞으로 더 늘어날 것이다. 그리고 프로그램을 만들기 위해서는  프로그래밍을 하기 위한 언어가 필요한데 이것도 점차 늘어나고 있다.
 
-  ![Image](https://github.com/simajune/iOS_School/blob/master/Img/PreStudy_01.jpg)
+  ![Image](https://simajune.github.io/img/posting/PreStudy_01.jpg)
 
 ------
 
@@ -27,31 +27,31 @@ tags: "Swift"
 
        - 중앙처리 장치 (Central Processing Unit, CPU)
 
-         <img src="https://github.com/simajune/iOS_School/blob/master/Img/PreStudy_02.jpg" width="300px" height="200px">
+         <img src="https://simajune.github.io/img/posting/PreStudy_02.jpg" width="300px" height="200px">
 
          : 입력장치 및 기억장치로부터 데이터를 받아 분석하고 처리하는 역할을 한다. 컴퓨터의 두뇌에 해당하는 핵심 부품이고 분석하고 처리하는 속도가 빠를수록 비싸다.
 
        - 주기억 장치 (Main Memory Unit)
 
-         <img src="https://github.com/simajune/iOS_School/blob/master/Img/PreStudy_03.jpg" width="300px" height="200px">
+         <img src="https://simajune.github.io/img/posting/PreStudy_03.jpg" width="300px" height="200px">
 
          : 중앙처리가 처리할 데이터를 보관해 두는 장치이다. 램은 데이터 처리 속도가 빠르지만 전원이 꺼지면 모든 데이터가 사라진다는 단점이 있다.
 
        - 보조기억장치 (Secondary Memory Unit)
 
-         <img src="https://github.com/simajune/iOS_School/blob/master/Img/PreStudy_04.jpg" width="300px" height="200px">
+         <img src="https://simajune.github.io/img/posting/PreStudy_04.jpg" width="300px" height="200px">
 
          : 보조기억장치는 속도가 느린 편이지만, 전원이 꺼져도 데이터를 안전하게 보관할 수 있고 용량도 크다. 예로는 HDD, SSD, CD-ROM, USB 등이 있따.
 
        - 입력장치 (Input Device)
 
-         <img src="https://github.com/simajune/iOS_School/blob/master/Img/PreStudy_05.jpg" width="300px" height="200px">
+         <img src="https://simajune.github.io/img/posting/PreStudy_05.jpg" width="300px" height="200px">
 
          : 컴퓨터를 활용하기 위해 각종 자료나 명령어를 입력할 때 쓰는 장치이다. 키보드나 마우스 등이 있다.
 
        - 출력장치 (Output Device)
 
-         <img src="https://github.com/simajune/iOS_School/blob/master/Img/PreStudy_06.png" width="300px" height="200px">
+         <img src="https://simajune.github.io/img/posting/PreStudy_06.png" width="300px" height="200px">
 
          : 중앙처리 장치(CPU)에서 처리한 정보를 실체화하여 사용자에게 전달하는 역할을 하는 장치이다. 모니터나 프린터, 스피커 등이 출력장치로 쓰인다.
 
@@ -137,19 +137,19 @@ tags: "Swift"
 
   - 단일 연결 리스트
 
-    <img src="https://github.com/simajune/iOS_School/blob/master/Img/PreStudy_07.png" width="500px" height="200px">
+    <img src="https://simajune.github.io/img/posting/PreStudy_07.png" width="500px" height="200px">
 
     : 단일 연결 리스트는 각 노드에 자료 공간과 한개의 포인터 공간이 있고, 각 노드의 포인터는 다음 노드를 가리킨다.
 
   - 이중 연결 리스트
 
-    <img src="https://github.com/simajune/iOS_School/blob/master/Img/PreStudy_08.png" width="500px" height="200px">
+    <img src="https://simajune.github.io/img/posting/PreStudy_08.png" width="500px" height="200px">
 
     : 이중 연결 리스트의 구조는 단일 연결 리스트와 비슷하지만, 포인터 공간이 두 개가 있고 각각의 포인터는 앞의 노드와 뒤의 노드를 가리킨다.
 
   - 원형 연결 리스트
 
-    <img src="https://github.com/simajune/iOS_School/blob/master/Img/PreStudy_09.png" width="500px" height="200px">
+    <img src="https://simajune.github.io/img/posting/PreStudy_09.png" width="500px" height="200px">
 
     : 원형 연결 리스트는 일반적인 연결 리스트에 마지막 노드와 처음 노드를 연결시켜 원형으로 만든 구조이다.
 
@@ -253,7 +253,7 @@ tags: "Swift"
 
 ### 9. 프론트엔드와 백엔드
 
-![PreStudy_11](https://github.com/simajune/iOS_School/blob/master/Img/PreStudy_11.jpg)
+![PreStudy_11](https://simajune.github.io/img/posting/PreStudy_11.jpg)
 
 #### - 프론트엔드
 
