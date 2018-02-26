@@ -73,3 +73,6 @@ markdown: kramdown
 highlighter: rouge
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 port: 4000
+
+disqus_url: disqus.com/by/devtejay
+disqus_id: devtejay

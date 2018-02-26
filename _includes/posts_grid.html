@@ -1,6 +1,6 @@
 
     <!-- Portfolio Grid Section -->
-    <section id="posting">
+    <section id="portfolio">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -9,39 +9,18 @@
                 </div>
             </div>
             <div class="row">
-              {% for post in paginator.posts %}
-
-              <div class="post-preview">
-                  <a href="{{ post.url }}">
-                      <h2 class="post-title">
-                          {{ post.title }}
-                      </h2>
-                      {% if post.subtitle %}
-                      <h3 class="post-subtitle">
-                          {{ post.subtitle }}
-                      </h3>
-                      {% endif %}
-                  </a>
-                  <p class="post-meta">Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.default_author }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}</p>
-              </div>
-              <hr>
-              {% endfor %}
-
-              <!-- Pager -->
-              {% if paginator.total_pages > 1 %}
-              <ul class="pager">
-                  {% if paginator.previous_page %}
-                  <li class="previous">
-                      <a href="{{ paginator.previous_page_path }}">&larr; Next Posts</a>
-                  </li>
-                  {% endif %}
-                  {% if paginator.next_page %}
-                  <li class="next">
-                      <a href="{{ paginator.next_page_path }}">Prev Posts &rarr;</a>
-                  </li>
-                  {% endif %}
-              </ul>
-              {% endif %}
+                {% for post in site.posts %}
+                    <div class="col-sm-4 portfolio-item">
+                        <a href="#portfolioModal-{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <i class="fa fa-search-plus fa-3x"></i>
+                                </div>
+                            </div>
+                            <img src="img/portfolio/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
+                        </a>
+                    </div>
+                {% endfor %}
             </div>
         </div>
     </section>
