@@ -26,7 +26,7 @@ disqus_shortname: myshortname
 # used for portfolio on home page
 collections:
   - portfolio
-
+  - posting
 # jekyll-paginate. for paginating blog posts.
 paginate: 14
 paginate_path: blog/page:num
