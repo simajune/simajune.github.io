@@ -1,8 +1,6 @@
 ---
 layout: default
 modal-id: 2
-anchor: DevTejay
-team: DevTejay
 title: 날씨먼지
 date: Feb 2018
 image: img/portfolio/Weathust.png

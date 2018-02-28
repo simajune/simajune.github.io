@@ -1,8 +1,6 @@
 ---
 layout: default
 modal-id: 1
-anchor: DevTejay
-team: DevTejay
 title: FooPls
 date: Jan 2018
 image: img/portfolio/FooPls.png
