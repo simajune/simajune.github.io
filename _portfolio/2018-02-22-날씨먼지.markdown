@@ -2,8 +2,9 @@
 layout: default
 modal-id: 2
 title: 날씨먼지
+name: Weathust
 date: 2018-02-22
-image: img/portfolio/Weathust/Weathust.png
+image: Weathust.png
 alt: image-alt
 description: 날씨먼지는 실시간 날씨와 날씨예보 그리고 실시간 미세먼지 정보와 예보를 제공하는 앱입니다.
 ---

@@ -15,13 +15,10 @@
                        <div class="modal-body">
                            <h2>{{ item.title }}</h2>
                            <hr class="star-primary">
-                           <img src="{{ item.image }}" class="img-responsive img-centered" alt="{{ item.alt }}">
+                           <img src="img/portfolio/{{ item.name }}/{{ item.image }}" class="img-responsive img-centered" alt="{{ item.alt }}">
                            {% if item.description %}
                                <p>{{ item.description }}</p>
                            {% endif %}
-
-                           {{ content }}
-                            <br>
 
                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                        </div>

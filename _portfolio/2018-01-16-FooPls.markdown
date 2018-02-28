@@ -2,8 +2,9 @@
 layout: default
 modal-id: 1
 title: FooPls
+name: FooPls
 date: 2018-01-16
-image: img/portfolio/FooPls/FooPls.png
+image: FooPls.png
 alt: image-alt
 description: FooPls는 푸드 캘린더와 그것을 공유하는 SNS가 결합된 앱입니다.
 ---
