@@ -3,24 +3,9 @@ layout: default
 modal-id: 1
 title: FooPls
 name: FooPls
+imgnum: 8
 date: 2018-01-16
 image: FooPls.png
 alt: image-alt
 description: FooPls는 푸드 캘린더와 그것을 공유하는 SNS가 결합된 앱입니다.
 ---
-
-![Image](https://simajune.github.io/img/portfolio/FooPls/COVERPAGE.png)
-
-![Image](https://simajune.github.io/img/portfolio/FooPls/PROJECTINFO.png)
-
-![Image](https://simajune.github.io/img/portfolio/FooPls/WIREFRAME.png)
-
-![Image](https://simajune.github.io/img/portfolio/FooPls/LOGIN.png)
-
-![Image](https://simajune.github.io/img/portfolio/FooPls/MAIN.png)
-
-![Image](https://simajune.github.io/img/portfolio/FooPls/SEARCH.png)
-
-![Image](https://simajune.github.io/img/portfolio/FooPls/CALENDAR.png)
-
-![Image](https://simajune.github.io/img/portfolio/FooPls/INFO.png)
