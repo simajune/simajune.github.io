@@ -19,6 +19,14 @@
                            {% if item.description %}
                                <p>{{ item.description }}</p>
                            {% endif %}
+                           {% for index in 8}
+                           <img src="img/portfolio/{{ item.name }}/index.png" class="img-responsive img-centered" alt="{{ item.alt }}">
+                           {% endfor}
+
+
+
+
+
 
                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                        </div>
