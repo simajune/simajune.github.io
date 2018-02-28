@@ -2,12 +2,38 @@
 layout: default
 modal-id: 1
 title: FooPls
-date: Jan 2018
-image: img/portfolio/FooPls.png
+date: 2018-01-16
+image: img/portfolio/FooPls/FooPls.png
 alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: iOS Developer
-description: Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!
-
+description: 
+- FooPls는 푸드 캘린더와 그것을 공유하는 SNS가 결합된 앱입니다.
+- Splash View는 애니메이션 효과를 주기 위해 Core Animator라는 프로그램을 사용하였습니다.
+- 실시간 데이터베이스, 스토리지 그리고 로그인 인증은  파이어베이스로 구현하였습니다.
+- 회원가입과 로그인은 파이어베이스에서 제공하는 메인 인증, 페이스북 인증 그리고 카카오 통해서 가능합니다.
+  ( 카카오 회원 가입은 파이어베이스 가입 인증 지원이 안되기 때문에 Node.js를 통해 로컬 서버를 만들어 사용)
+- Main은 Home, Search, Posting, Calendar, Information 5개의 View Controller로 구성하였습니다.
+- HomeView은 CollectionView를 사용하여 사용자가 음식을 포스팅한 글을 볼 수 있고 글을 눌렀을 때는 그 글의
+  세부 내용을 확인 할 수 있습니다..
+- Search View는 GooglePlacePicker를 사용하여 검색한 장소에 대한 포스팅이 있는지 없는지 검색합니다.
+- Posting View은 사용자가 Calendar에 글을 쓸지 아니면 글을 Posting만 할지 결정합니다.
+- Calendar는 해당 날짜에 글을 쓰고 글이 있는 날짜에는 글이 표시하고 그 날짜를 누르면 TableView를 Popup 시켜
+  해당 날짜에 쓴 글을 모두 보여 줍니다.
+- Information은 사용자의 기본 정보를 보여줍니다. 사용자가 쓴 모든 글과 포스팅에서 좋아요를 누른 글을
+   CollectionView를 통해 보여주고 프로필 변경과 로그아웃을 할 수 있습니다.
 ---
+
+![Image](https://simajune.github.io/img/portfolio/FooPls/COVERPAGE.png)
+
+![Image](https://simajune.github.io/img/portfolio/FooPls/PROJECTINFO.png)
+
+![Image](https://simajune.github.io/img/portfolio/FooPls/WIREFRAME.png)
+
+![Image](https://simajune.github.io/img/portfolio/FooPls/LOGIN.png)
+
+![Image](https://simajune.github.io/img/portfolio/FooPls/MAIN.png)
+
+![Image](https://simajune.github.io/img/portfolio/FooPls/SEARCH.png)
+
+![Image](https://simajune.github.io/img/portfolio/FooPls/CALENDAR.png)
+
+![Image](https://simajune.github.io/img/portfolio/FooPls/INFO.png)
