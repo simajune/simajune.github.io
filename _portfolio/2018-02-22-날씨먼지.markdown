@@ -5,5 +5,21 @@ title: 날씨먼지
 date: 2018-02-22
 image: img/portfolio/Weathust/Weathust.png
 alt: image-alt
-description: Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!
+description: 날씨먼지는 실시간 날씨와 날씨예보 그리고 실시간 미세먼지 정보와 예보를 제공하는 앱입니다.
 ---
+
+![Image](https://simajune.github.io/img/portfolio/FooPls/COVERPAGE.png)
+
+![Image](https://simajune.github.io/img/portfolio/FooPls/PROJECTINFO.png)
+
+![Image](https://simajune.github.io/img/portfolio/FooPls/WIREFRAME.png)
+
+![Image](https://simajune.github.io/img/portfolio/FooPls/LOGIN.png)
+
+![Image](https://simajune.github.io/img/portfolio/FooPls/MAIN.png)
+
+![Image](https://simajune.github.io/img/portfolio/FooPls/SEARCH.png)
+
+![Image](https://simajune.github.io/img/portfolio/FooPls/CALENDAR.png)
+
+![Image](https://simajune.github.io/img/portfolio/FooPls/INFO.png)
