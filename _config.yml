@@ -1,5 +1,5 @@
 # Site settings
-title: DevTejay's Blog
+title: Tejay's Blog
 email: tejayjung@gmail.com
 url: https://simajune.github.io
 description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
@@ -27,7 +27,7 @@ disqus_shortname: myshortname
 collections:
   - portfolio
   - posting
-  
+
 # jekyll-paginate. for paginating blog posts.
 paginate: 14
 paginate_path: blog/page:num
