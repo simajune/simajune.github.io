@@ -2,7 +2,7 @@
 layout: post
 title: "학점 계산기"
 author: "Tejay"
-tags: "Swift"
+tags: "iOS"
 ---
 
 # 학점 계산기

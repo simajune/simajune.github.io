@@ -2,7 +2,7 @@
 layout: post
 title: "은행 계좌 만들기"
 author: "Tejay"
-tags: "Swift"
+tags: "iOS"
 ---
 
 # 은행 계좌 만들기
