@@ -1,3 +1,10 @@
+---
+layout: post
+title: "클래스와 구조체"
+author: "Tejay"
+tags: "iOS"
+---
+
 # Class VS Struct
 
 ### 1. Class(클래스)와 Struct(구조체)란
@@ -19,13 +26,13 @@
 
   ​
 
-### 2. 기본 구조	
+### 2. 기본 구조
 
 ```swift
 class SpecificClass {
     var name: String = ""
     var phone: String = ""
-    
+
     func addName() {
         //content
     }
@@ -34,7 +41,7 @@ class SpecificClass {
 struct SpecificStruct {
     var address: String = ""
     var counter: Int = 0
-    
+
     func addCounter() {
         //content
     }
@@ -70,7 +77,7 @@ someStruct.addCounter()
 
 - 구조체는 자동으로 Memberwise Initializers가 만들어진다.
 
-  - Memberwise Initializers란 
+  - Memberwise Initializers란
 
     ```swift
     struct Subject {
@@ -79,7 +86,7 @@ someStruct.addCounter()
 
     class Student {
         var subject: [Subject] = []
-        
+
         func addSubject(name: String){
             let subject = Subject(name: String)
             subject.append(subject)
@@ -95,7 +102,7 @@ someStruct.addCounter()
     struct Subject {
         var name: String?
         var score: Int
-        
+
         init(score: Int) {
             self.score = score
         }
@@ -104,7 +111,7 @@ someStruct.addCounter()
     class Student {
         var subject: [Subject] = []
         var score: Int = 0
-        
+
         func addScore(score: Int){
             let score = Subject(score: Int)
         }
@@ -209,4 +216,3 @@ class Student {
     }
 }
 ```
-
