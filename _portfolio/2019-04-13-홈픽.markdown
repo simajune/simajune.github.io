@@ -1,0 +1,11 @@
+---
+layout: default
+modal-id: 4
+title: 홈픽
+name: HomePick
+imgnum: 3
+date: 2018-04-13
+image: HomePick.png
+alt: image-alt
+description: 홈픽 앱은 스마트폰에서 실시간 픽업요청과 배송상태를 확인할 수 있는 서비스 입니다.
+---
