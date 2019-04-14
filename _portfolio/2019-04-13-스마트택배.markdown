@@ -1,0 +1,11 @@
+---
+layout: default
+modal-id: 5
+title: 스마트택배
+name: SmartParcel
+imgnum: 3
+date: 2018-04-13
+image: SmartParcel.png
+alt: image-alt
+description: 모든 택배조회를 통해 현재 택배의 상태를 푸시로 알림, 쇼핑몰에 로그인하여 배송정보와 상품 정보를 불러와 이용자가 구입한 물건에 대한 다이어리를 보여주고 택배예약을 통해 택배기사가 방문 또는 편의점에 가져가 택배를 보낼 수 있는 앱입니다.
+---
