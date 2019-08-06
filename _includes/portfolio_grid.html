@@ -10,16 +10,32 @@
             </div>
             <div class="row">
                 {% for item in site.portfolio %}
-                    <div class="col-sm-4 portfolio-item">
-                        <a href="#portfolioModal-{{ item.modal-id }}" class="portfolio-link" data-toggle="modal">
-                            <div class="caption">
-                                <div class="caption-content">
-                                    <i class="fa fa-search-plus fa-3x"></i>
+                  {% if item.modal-id == 3 && item.modal-id == 4 %}
+                    <div class="row">
+                      </<div class="">
+                        <div class="col-sm-4 portfolio-item">
+                            <a href="#portfolioModal-{{ item.modal-id }}" class="portfolio-link" data-toggle="modal">
+                                <div class="caption">
+                                    <div class="caption-content">
+                                        <i class="fa fa-search-plus fa-3x"></i>
+                                    </div>
                                 </div>
-                            </div>
-                            <img src="img/portfolio/{{ item.name }}/{{ item.image }}" class="img-responsive" alt="{{ item.alt }}">
-                        </a>
-                    </div>
+                                <img src="img/portfolio/{{ item.name }}/{{ item.image }}" class="img-responsive" alt="{{ item.alt }}">
+                            </a>
+                        </div>
+                      </div>
+                  {% else %}
+                  <div class="col-sm-4 portfolio-item">
+                      <a href="#portfolioModal-{{ item.modal-id }}" class="portfolio-link" data-toggle="modal">
+                          <div class="caption">
+                              <div class="caption-content">
+                                  <i class="fa fa-search-plus fa-3x"></i>
+                              </div>
+                          </div>
+                          <img src="img/portfolio/{{ item.name }}/{{ item.image }}" class="img-responsive" alt="{{ item.alt }}">
+                      </a>
+                  </div>
+                  {% endif %}
                 {% endfor %}
             </div>
         </div>
