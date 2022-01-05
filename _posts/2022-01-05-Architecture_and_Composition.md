@@ -155,7 +155,7 @@ myLabel.text = welcomeMessage
 - 복잡한 기능이 단 하나의 모듈 안에 있다면 내부 객체들끼리 혼잡한 참조 관계에 매우 취약
 - 택시 호출을 위한 모듈만 해도 유저의 위치, 결제, 쿠폰 적용, 백엔드와의 통신 등 기능이 굉장히 많음
 
-<img src="https://simajune.github.io/img/posting/Architecture_and_Composition03.png" width="600px" height="400px"/>
+<img src="https://simajune.github.io/img/posting/Architecture_and_Composition03.png" width="700px" height="380px"/>
 
 - 이걸 독립적인 모듈로 나눠보면 복잡한 참고 관계를 많이 해소할 수 있음
 - public으로 공개되지 않은 부분은 다른 모듈에서 아예 접근조차 어렵기 때문에 사이드 이펙트의 영향도 덜함
@@ -167,7 +167,7 @@ myLabel.text = welcomeMessage
 
 ##### Redux 기반 아키텍처의 Composition
 
-<img src="https://simajune.github.io/img/posting/Architecture_and_Composition04.png" width="600px" height="400px"/>
+<img src="https://simajune.github.io/img/posting/Architecture_and_Composition04.png" width="800px" height="350px"/>
 
 - Redux 기반의 아키텍처(The Composition Architecture, ReSwift, etc)를 예를 들어보면 이 아키텍처는 Reducer, Store, State, Action, View 요소로 로직을 분산 시킴
 - Reducer: 상태를 업데이트
@@ -176,11 +176,12 @@ myLabel.text = welcomeMessage
 - 하지만 subReducer를 통해 분리를 시켜서 다시 조합하면 쉽게 유지보수할 수 있음.
 - Action도 마찬가지로 subState로 분리
 
-<img src="https://simajune.github.io/img/posting/Architecture_and_Composition06.png" width="600px" height="400px"/>
+<img src="https://simajune.github.io/img/posting/Architecture_and_Composition05.png" width="800px" height="400px"/>
 
 ##### Interactor, Router 기반 아키텍처의 Composition
 
-<img src="https://simajune.github.io/img/posting/Architecture_and_Composition06.png" width="600px" height="400px"/>
+<img src="https://simajune.github.io/img/posting/Architecture_and_Composition06.png" width="800px" height="350px"/>
+
 - Interactor, Router 기반 아키텍처(RIBs, VIPER)는 Builder, Router, Interactor, Presenter, View로 로직을 분리 시킴. 이 하나의 단위를 리블이라고 함
 - 리블렛은 한 화면 전체를 담당할 수도 있고 리브를 담당할 수도 있고 화면이 없을 수도 있음
 - 리블렛은 여러개의 child 리블렛으로 분리가 가능
